@@ -1,6 +1,4 @@
-Claro! Aqui está um exemplo de README para a sua aplicação:
 
-```markdown
 # API de Livros
 
 Esta é uma API simples para gerenciar informações sobre livros, construída com Node.js, Express e MySQL. A API permite realizar operações CRUD (Criar, Ler, Atualizar e Deletar) em uma base de dados de livros.
