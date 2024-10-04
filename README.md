@@ -101,4 +101,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 ```
 
-Sinta-se à vontade para personalizar o README conforme necessário!
+
