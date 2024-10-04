@@ -21,8 +21,8 @@ Antes de começar, você precisará ter o Node.js e o MySQL instalados em sua m�
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/ThalyAraujo/BookStoreAPI.git
+   cd BookStoreAPI
    ```
 
 2. Instale as dependências:
