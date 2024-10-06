@@ -94,9 +94,9 @@ A aplicação estará rodando em `http://localhost:3000`.
 
 ### 6. Atualizar um livro
 
-- ** PUT ** /books/:id
+- **PUT** /books/:id
 
-** Corpo da requisição: **
+**Corpo da requisição:**
 
 ```json
 {
