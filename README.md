@@ -92,6 +92,21 @@ A aplicação estará rodando em `http://localhost:3000`.
 
 - **DELETE** `/books/:id`
 
+### 6. Atualizar um livro
+
+- ** PUT ** /books/:id
+
+** Corpo da requisição: **
+
+```json
+{
+  "book": "Título do Livro Atualizado",
+  "genre": "Gênero do Livro Atualizado",
+  "writer": "Autor do Livro Atualizado",
+  "releaseDate": "Data de Lançamento Atualizada"
+}
+```
+
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
