@@ -131,6 +131,26 @@ app.post('/books/', async (req, res) => {
     )
 })
 
+app.put('/books/:id', (req, res) => {
+    const bookId = req.params.id;
+    const {book, genre, writer, releaseDate} = req.body;
+
+    db.query('UPDATE booksinfo SET book = ?, genre = ?, writer = ?, releaseDate = ? WHERE id = ?',
+        [book, genre, writer, releaseDate, bookId], (err, result) => {
+            if (err) {
+                console.log(err)
+                return res.status(500).send('Erro ao atualizar as informações');
+            }
+
+            if (result.affectedRows === 0) {
+                return res.status(404).send('Não foi possível encontrar o livro');
+            }
+
+            res.send('Livro atualizado com sucesso!')
+        }
+    )
+})
+
 app.delete('/books/:id', (req, res) => {
     const bookId = req.params.id;
 
